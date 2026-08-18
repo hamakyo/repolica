@@ -1,0 +1,27 @@
+source:
+  provider: github
+  owner: hamakyo
+  token_env: REPOLICA_GITHUB_TOKEN
+
+targets:
+  - name: home-gitlab
+    provider: gitlab
+    url: https://gitlab.example.com
+    namespace: hamakyo
+    token_env: REPOLICA_GITLAB_TOKEN
+
+repositories:
+  visibility:
+    - public
+    - private
+  include: []
+  exclude: []
+
+sync:
+  interval: 10m
+  concurrency: 2
+  prune: true
+  verify: true
+
+backup:
+  enabled: false
