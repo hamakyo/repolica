@@ -1,6 +1,19 @@
-# Repolica
+<h1 align="center">Repolica</h1>
 
-> Self-hosted repository replication and disaster recovery for Git.
+<p align="center">
+  <strong>Self-hosted repository replication and disaster recovery for Git.</strong>
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/hamakyo/repolica" alt="License"></a>
+  <a href="https://github.com/hamakyo/repolica/stargazers"><img src="https://img.shields.io/github/stars/hamakyo/repolica?style=flat" alt="GitHub stars"></a>
+  <a href="https://github.com/hamakyo/repolica/issues"><img src="https://img.shields.io/github/issues/hamakyo/repolica" alt="GitHub issues"></a>
+  <img src="https://img.shields.io/badge/status-pre--alpha-orange" alt="Status: pre-alpha">
+</p>
+
+<p align="center">
+  English | <a href="README.ja.md">日本語</a>
+</p>
 
 Repolica is an open-source control plane for continuously replicating Git repositories across providers without making any single forge your only copy of the source.
 
